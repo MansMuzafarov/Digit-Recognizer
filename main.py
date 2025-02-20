@@ -4,10 +4,8 @@ from data_preprocessing import data_preprocessing
 from train import train_neural_network
 from save_load import save_model, load_model
 from evaluation import find_accuracy_of_the_model, visualize_n_predictions, plot_confusion_matrix
-from config import alpha, number_of_epochs, batch_size
+from config import train_model, alpha, number_of_epochs, batch_size
 
-# ====== CONFIGURATION ======
-train_model = False  # Set to True if you want to train the model again, otherwise it will load the saved model
 
 # ====== Data loading and preprocessing ======
 X_train, Y_train, X_test, Y_test = data_preprocessing()
