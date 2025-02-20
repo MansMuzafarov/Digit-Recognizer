@@ -66,7 +66,7 @@ The `main.py` script **either trains or loads the neural network**, evaluates it
 python main.py
 ```
 
-### Training vs. Preloading Model
+### Training vs Preloading Model
 
 Modify `main.py`:
 
