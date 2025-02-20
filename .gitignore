@@ -2,6 +2,5 @@
 __pycache__/
 *.png
 *.csv
-*.npz
 First_Neural_Network.py
 Computer_Vision_Methods.py
