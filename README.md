@@ -86,7 +86,7 @@ train_model = False  # Set to True to train the model from scratch
 Digit-Recognizer---Neural-Network-solution/  
 
 ├── data_preprocessing.py  # Data loading and normalization (MNIST)  
-├── model.py               # Neural network implementation (forward/backprop)  
+├── model.py               # Neural network implementation (forward/backprop/loss-function)  
 ├── train.py               # Training procedure (mini-batch gradient descent)  
 ├── evaluation.py          # Accuracy calculation, confusion matrix visualization  
 ├── save_load.py           # Model weight saving & loading functions  
