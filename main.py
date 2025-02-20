@@ -4,6 +4,7 @@ from data_preprocessing import data_preprocessing
 from train import train_neural_network
 from save_load import save_model, load_model
 from evaluation import find_accuracy_of_the_model, visualize_n_predictions, plot_confusion_matrix
+from config import alpha, number_of_epochs, batch_size
 
 # ====== CONFIGURATION ======
 train_model = False  # Set to True if you want to train the model again, otherwise it will load the saved model
@@ -11,10 +12,6 @@ train_model = False  # Set to True if you want to train the model again, otherwi
 # ====== Data loading and preprocessing ======
 X_train, Y_train, X_test, Y_test = data_preprocessing()
 
-# ====== Parameters for training ======
-alpha = 0.01
-Number_of_epochs = 150
-batch_size = 32
 
 model_path = "trained_model.npz"
 
@@ -22,7 +19,7 @@ model_path = "trained_model.npz"
 if train_model or not os.path.exists(model_path):
     print("\n🔵 Training the model...\n")
     W_1, b_1, W_2, b_2, loss_history = train_neural_network(
-        alpha=alpha, batch_size=batch_size, Number_of_epochs=Number_of_epochs, X_train=X_train, Y_train=Y_train
+        alpha=alpha, batch_size=batch_size, Number_of_epochs=number_of_epochs, X_train=X_train, Y_train=Y_train
     )
     save_model(W_1, b_1, W_2, b_2, model_path)
 else:
