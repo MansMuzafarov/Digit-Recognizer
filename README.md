@@ -106,7 +106,7 @@ All **training settings** are defined in `config.py`:
 
 ```python
 alpha = 0.01  # Learning rate
-number_of_epochs = 150  # Number of training epochs
+number_of_epochs = 100  # Number of training epochs
 batch_size = 32  # Batch size for mini-batch gradient descent
 ```
 
