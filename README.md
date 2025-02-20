@@ -83,18 +83,19 @@ train_model = False  # Set to True to train the model from scratch
 ## Project Structure
 
 
-mnist-handmade-nn/
-├── data_preprocessing.py  # Data loading and normalization (MNIST)
-├── model.py               # Neural network implementation (forward/backprop)
-├── train.py               # Training procedure (mini-batch gradient descent)
-├── evaluation.py          # Accuracy calculation, confusion matrix visualization
-├── save_load.py           # Model weight saving & loading functions
-├── config.py              # Hyperparameters (learning rate, batch size, epochs)
-├── utils.py               # Activation functions (ReLU, Softmax, etc.)
-├── requirements.txt       # Required dependencies
-├── main.py                # Main script for training and evaluation
-├── README.md              # Project documentation (this file)
-└── .gitignore             # Ignored files (cache, temp files)
+Digit-Recognizer---Neural-Network-solution/  
+
+├── data_preprocessing.py  # Data loading and normalization (MNIST)  
+├── model.py               # Neural network implementation (forward/backprop)  
+├── train.py               # Training procedure (mini-batch gradient descent)  
+├── evaluation.py          # Accuracy calculation, confusion matrix visualization  
+├── save_load.py           # Model weight saving & loading functions  
+├── config.py              # Hyperparameters (learning rate, batch size, epochs)  
+├── utils.py               # Activation functions (ReLU, Softmax, etc.)  
+├── requirements.txt       # Required dependencies  
+├── main.py                # Main script for training and evaluation  
+├── README.md              # Project documentation (this file)  
+└── .gitignore             # Ignored files (cache, temp files)  
 
 
 
