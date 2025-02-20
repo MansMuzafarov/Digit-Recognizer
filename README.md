@@ -74,7 +74,7 @@ Modify `main.py`:
 train_model = False  # Set to True to train the model from scratch
 ```
 
-- `False`: Loads the **pre-trained** model (`trained_model.npz`).
+- `False`: Loads the **pre-trained** model for 100 epochs (`trained_model.npz`).
 - `True`: **Trains a new model** and saves weights.
 
 ---

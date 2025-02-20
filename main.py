@@ -36,7 +36,7 @@ if train_model and loss_history:
 
 # ====== Model evaluation ======
 accuracy = find_accuracy_of_the_model(X_test, Y_test, W_1, W_2, b_1, b_2)
-print(f"\n Model Accuracy: {accuracy:.2f}%\n")
+
 
 # ====== Visualizing Results ======
 plot_confusion_matrix(X_test, Y_test, W_1, W_2, b_1, b_2)
