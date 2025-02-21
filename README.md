@@ -35,8 +35,8 @@ This project presents a **fully manual implementation** of a **Multi-Layer Perce
 
 1. **Clone the repository:**
 
-   git clone https://github.com/MansMuzafarov/Digit-Recognizer---Neural-Network-solution  
-   cd Digit-Recognizer---Neural-Network-solution
+   git clone https://github.com/MansMuzafarov/Digit-Recognizer  
+   cd Digit-Recognizer
    
 2. **Install dependencies:**
    
