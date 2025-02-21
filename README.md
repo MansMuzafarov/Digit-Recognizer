@@ -83,7 +83,7 @@ train_model = False  # Set to True to train the model from scratch
 ## Project Structure
 
 
-Digit-Recognizer/  
+
 
 ├── data_preprocessing.py  # Data loading and normalization (MNIST)  
 ├── model.py               # Neural network implementation (forward/backprop/loss-function)  
