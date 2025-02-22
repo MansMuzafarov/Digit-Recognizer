@@ -55,8 +55,8 @@ def data_preprocessing_kaggle():
     
     # Data exctracting:
     
-    df_train = pd.read_csv("Kaggle Data/train.csv")
-    df_test = pd.read_csv("Kaggle Data/test.csv") 
+    df_train = pd.read_csv("Kaggle_Data/train.csv")
+    df_test = pd.read_csv("Kaggle_Data/test.csv") 
     
     # Test idicies extracting: 
     test_ids = df_test.index + 1
