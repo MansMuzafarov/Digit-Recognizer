@@ -88,7 +88,7 @@ train_model_kaggle = False # the same for kaggle's data
 
 
 
-├── Kaggle_Data            # Contains data from the Kaggle's competition
+├── Kaggle_Data            # Contains data from the Kaggle's competition  
 ├── data_preprocessing.py  # Data loading and normalization (for MNIST's and Kaggle's datasets)  
 ├── model.py               # Neural network implementation (forward/backprop/loss-function)  
 ├── train.py               # Training procedure (mini-batch gradient descent)  
