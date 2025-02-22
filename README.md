@@ -47,7 +47,7 @@ This project presents a **fully manual implementation** of a **Multi-Layer Perce
 
 ## Running the Project (`main.py`)
 
-### **Main Execution 
+### Main Execution 
 
 The `main.py` script **either trains or loads the neural network**, evaluates it, and visualizes results.
 
