@@ -59,6 +59,9 @@ The `main.py` script **either trains or loads the neural network**, evaluates it
 4. **Evaluates accuracy** on test data.
 5. **Generates a confusion matrix**.
 6. **Displays sample predictions** from the test set.
+7. **Trains the model using Kaggle's dataset** if `train_model_kaggle = True` or **loads a pre-trained model** otherwise
+8. **Makes predictions for Kaggle's test dataset** 
+9. **Saves those predictions** to the file submission.csv   
 
 ### Execution Command:
 
@@ -72,6 +75,7 @@ Modify `main.py`:
 
 ```python
 train_model = False  # Set to True to train the model from scratch
+train_model_kaggle = False # the same for kaggle's data
 ```
 
 - `False`: Loads the **pre-trained** model for 100 epochs (`trained_model.npz`).
