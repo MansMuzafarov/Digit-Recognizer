@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents a **fully manual implementation** of a **Multi-Layer Perceptron (MLP)** for digit recognition using the **MNIST dataset**. The **entire neural network architecture and optimization algorithms** are implemented **exclusively using NumPy**.
+This project presents a **fully manual implementation** of a **Multi-Layer Perceptron (MLP)** for digit recognition using the **MNIST dataset**. In addition, a similar problem was solved for kaggle using **Kaggle's** dataset. The **entire neural network architecture and optimization algorithms** are implemented **exclusively using NumPy**.
 
 ### Key Features:
 
@@ -84,8 +84,8 @@ train_model = False  # Set to True to train the model from scratch
 
 
 
-
-├── data_preprocessing.py  # Data loading and normalization (MNIST)  
+├── Kaggle_Data            # Contains data from the Kaggle's competition
+├── data_preprocessing.py  # Data loading and normalization (for MNIST's and Kaggle's datasets)  
 ├── model.py               # Neural network implementation (forward/backprop/loss-function)  
 ├── train.py               # Training procedure (mini-batch gradient descent)  
 ├── evaluation.py          # Accuracy calculation, confusion matrix visualization  
@@ -94,6 +94,9 @@ train_model = False  # Set to True to train the model from scratch
 ├── utils.py               # Activation functions (ReLU, Softmax, etc.)  
 ├── requirements.txt       # Required dependencies  
 ├── main.py                # Main script for training and evaluation  
+├── kaggle_solution.py     # Contains solution of Kaggle's problem  
+├── trained_model.npz      # Contains parameters of pre-trained model using the MNIST dataset
+├── trained_model_kaggle.npz   # Contains parameters of pre-trained model using Kaggle's dataset
 ├── README.md              # Project documentation (this file)  
 └── .gitignore             # Ignored files (cache, temp files)  
 
