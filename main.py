@@ -5,6 +5,7 @@ from train import train_neural_network
 from save_load import save_model, load_model
 from evaluation import find_accuracy_of_the_model, visualize_n_predictions, plot_confusion_matrix
 from config import train_model, alpha, number_of_epochs, batch_size
+from kaggle_solution import make_predictions_for_kaggle
 
 
 # ====== Data loading and preprocessing ======
@@ -34,13 +35,19 @@ if train_model and loss_history:
     plt.savefig("Loss_function_history.png")
     plt.close()
 
-# ====== Model evaluation ======
-accuracy = find_accuracy_of_the_model(X_test, Y_test, W_1, W_2, b_1, b_2)
+    # ====== Model evaluation ======
+    accuracy = find_accuracy_of_the_model(X_test, Y_test, W_1, W_2, b_1, b_2)
 
 
-# ====== Visualizing Results ======
-plot_confusion_matrix(X_test, Y_test, W_1, W_2, b_1, b_2)
+    # ====== Visualizing Results ======
+    plot_confusion_matrix(X_test, Y_test, W_1, W_2, b_1, b_2)
 
-# Direct examples:
-n = 5
-visualize_n_predictions(X_test, Y_test, W_1, W_2, b_1, b_2, n=n)
+    # Direct examples:
+    n = 5
+    visualize_n_predictions(X_test, Y_test, W_1, W_2, b_1, b_2, n=n)
+
+
+
+# For Kaggle: 
+
+make_predictions_for_kaggle()
