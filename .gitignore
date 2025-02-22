@@ -1,6 +1,6 @@
 # To ignore:
 __pycache__/
 *.png
-*.csv
+submission.csv
 First_Neural_Network.py
 Computer_Vision_Methods.py
