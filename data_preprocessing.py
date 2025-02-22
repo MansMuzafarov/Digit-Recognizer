@@ -60,14 +60,11 @@ def data_preprocessing_kaggle():
     
     # Test idicies extracting: 
     test_ids = df_test.index + 1
-    print(test_ids)
+    
     
     X_train, y_train = df_train.iloc[:,1:].to_numpy(), df_train.iloc[:,0].to_numpy()
     X_test = df_test.to_numpy()
     
-    first_test_pic = X_test[0].reshape((28,28))
-    plt.imshow(first_test_pic, cmap = "gray")
-    plt.show()
     
     # Normalization:
     
