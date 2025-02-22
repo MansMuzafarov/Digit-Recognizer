@@ -7,6 +7,8 @@ from evaluation import find_accuracy_of_the_model, visualize_n_predictions, plot
 from config import train_model, alpha, number_of_epochs, batch_size
 from kaggle_solution import make_predictions_for_kaggle
 
+# Update
+
 
 # ====== Data loading and preprocessing ======
 X_train, Y_train, X_test, Y_test = data_preprocessing()
